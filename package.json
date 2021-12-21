@@ -1,0 +1,22 @@
+{
+  "name": "web3-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node tasks/task1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethereumjs/common": "^2.6.0",
+    "@ethereumjs/tx": "^3.4.0",
+    "axios": "^0.24.0",
+    "ether": "^0.0.9",
+    "ethers": "^5.5.2",
+    "web3": "^1.6.1"
+  }
+}
